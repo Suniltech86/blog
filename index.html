@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+*{padding:10px; background:whit; margin:0px; box-sizing:border-box;}
+table{ border-radius:10px; animation: color 2s infinite alternate; margin:auto; box-shadow:0px 0px 20px; text-align:center;background:linear-gradient(to left,green,blue); border-radius:;}
+@keyframes left-right{
+           from{left:200px; top:1px;}
+		   to{left:1300px; top:1px;}
+		   }
+h{animation:left-right ease 12s infinite alternate; position:relative;}			   
+@keyframes zoom{
+           from{transform:scale(0.8);}
+		   to{transform:scale(1);}
+		   }
+#i1{animation:zoom 1s ease infinite alternate; position:relative; border-radius:50%;}		   
+@keyframes color{
+           from{background:linear-gradient(to left,green,blue);}
+           to{background:linear-gradient(to left,blue,green,red);}
+		   }
+#img1{border-radius:50%;}		   
+</style>
+<body>
+<div class="blog">
+<h1>Shopping Blog</h1>
+<table>
+<tr><td><img src="glass.webp" id="i1" width="200px" height="200px";><br><span style="color:white;">Full Black Frame Black Lens Aviator Sunglasses<br>
+&#8377;700/Piece <s>&#8377;1400</s></span></td>
+<td rowspan="2"><img src="s4.jpeg" id="img1" width="500px" height="500px"></td>
+<td><img src="shoe1.webp" id="i1" width="200px" height="200px"; ><br><span style="color:white;">White Sneaker Shoes For Men
+&#8377;1500/Pair<s>&#8377;2,999</s></span>
+</td>
+<tr><td><img src="watch.webp" id="i1" width="200px" height="200px";><br><span style="color:white;">ColorFit Pulse 2 Max
+&#8377;1,499 <s>&#8377;2,999</s></td>
+<td><img src="shirt.jpeg" id="i1" width="200px" height="200px";><br><span style="color:white;">Tribal T-Shirts Men's Ride Your Way Biker T-Shirt<br>&#8377;800 <s>&#8377;1500</s></span>
+</td></tr>
+</table>
+</div>
+
+</body>
+</html>
